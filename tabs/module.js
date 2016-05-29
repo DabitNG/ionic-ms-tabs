@@ -9,15 +9,15 @@ angular.module('tabs', [])
 	    templateUrl: 'modules/tabs/templates/tabs.html'
 	  })
 
-	  .state('app.search', {
-	    url: '/search',
+	  .state('app.home', {
+	    url: '/home',
 	    views: {
-	      'app-search': {
-	        templateUrl: 'modules/myModule/templates/search.html',
+	      'app-home': {
+	        templateUrl: 'modules/tabs/templates/home.html',
 	      }
 	    }
 	  });
 
 	  // if none of the above states are matched, use this as the fallback
-	  $urlRouterProvider.otherwise('/app/search');
+	  $urlRouterProvider.otherwise('/app/home');
 });
