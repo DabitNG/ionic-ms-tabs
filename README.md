@@ -11,10 +11,10 @@ This is a module for Ionic MS Starter that provides tab navigation to your app
 4. Remove `<ion-pane>` from index.html and add the following code to your index.html body tag.
 ```
 <ion-nav-bar class="bar-stable">
-       <ion-nav-back-button>
-       </ion-nav-back-button>
-      </ion-nav-bar>
-      <ion-nav-view></ion-nav-view> 
+   <ion-nav-back-button>
+   </ion-nav-back-button>
+</ion-nav-bar>
+<ion-nav-view></ion-nav-view> 
 ```
 
 ### Support or Contact
