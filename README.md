@@ -1,1 +1,1 @@
-"# ionic-ms-tabs" 
+"# ionic-ms-tabs-module" 
