@@ -1,5 +1,17 @@
+/**
+* Tabs Module. 
+* @author DabitNG 
+*/
+
 angular.module('tabs', [])
 
+	/**
+	 * Global configuration for this module
+	 * Configure your diferentet views here
+	 * @param $stateProvider
+	 * @param $urlRouterProvider
+	 * @return
+	 */
 	.config(function($stateProvider, $urlRouterProvider) {
 	  $stateProvider
 
@@ -14,6 +26,15 @@ angular.module('tabs', [])
 	    views: {
 	      'app-home': {
 	        templateUrl: 'modules/tabs/templates/home.html',
+	      }
+	    }
+	  })
+	  
+	  .state('app.search', {
+	    url: '/search',
+	    views: {
+	      'app-search': {
+	        templateUrl: 'modules/tabs/templates/search.html',
 	      }
 	    }
 	  });
